@@ -36,7 +36,13 @@ function build_emulationstation-recallbox() {
 }
 
 function install_emulationstation-recallbox() {
-    install_emulationstation
+	md_ret_files=(
+        'CREDITS.md'
+        'emulationstation'
+        'GAMELISTS.md'
+        'README.md'
+        'THEMES.md'
+    )
 }
 
 function configure_emulationstation-recallbox() {
